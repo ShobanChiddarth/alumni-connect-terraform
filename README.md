@@ -54,3 +54,11 @@ ssh -i ~/.ssh/alumni-management.pem ubuntu@<ec2-private-ip>
 | `db_password` | PostgreSQL password for the `alumni_connect` database |
 
 Pass via `terraform.tfvars` or environment variable `TF_VAR_db_password`.
+
+
+## Destroy NAT Gateway
+
+```
+terraform destroy -target=aws_nat_gateway.alumni-nat-gw -target=aws_eip.nat-gateway-elastic-ip
+ ```
+ 
