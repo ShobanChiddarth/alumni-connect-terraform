@@ -2,13 +2,6 @@
 
 Terraform IaC for deploying the [alumni-connect-backend](https://github.com/ShobanChiddarth/alumni-connect-backend) on AWS.
 
-## Internship Details
-
-- Intern ID: `CITS752`
-- Name: Shoban Chiddarth
-- No. of weeks: 4
-- Project Name: Simple VPC Design
-- Project Scope: Cloud Computing
 
 ## Architecture
 
@@ -70,3 +63,10 @@ Pass via `terraform.tfvars` or environment variable `TF_VAR_db_password`.
 terraform destroy -target=aws_nat_gateway.alumni-nat-gw -target=aws_eip.nat-gateway-elastic-ip
  ```
  
+## Internship Details
+
+- Intern ID: `CITS752`
+- Name: Shoban Chiddarth
+- No. of weeks: 4
+- Project Name: Simple VPC Design
+- Project Scope: Cloud Computing
